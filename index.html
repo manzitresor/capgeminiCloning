@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
-    <nav class="">
-        <div class="flex justify-between  px-4 py-4 w-full bg-slate-500 fixed lg:justify-start">
+    <nav>
+        <div class="flex justify-between  px-4 py-4 w-full z-40 fixed lg:justify-start lg:gap-x-12 items-center align-middle">
             <div>
                 <img src="./Assets/mobile-logo.svg">
             </div>
@@ -18,8 +18,8 @@
                 <span class="bg-gray-500 w-[1px] mx-2"></span>
                 <i class="uil uil-bars"></i>
             </div>
-            <div class="hidden lg:flex">
-                <div class="flex gap-4">
+            <div class="hidden lg:flex justify-between w-full">
+                <div class="flex gap-4 text-white text-lg font-light">
                     <a>Insights</a>
                     <a>Industries</a>
                     <a>Servises</a>
@@ -27,12 +27,22 @@
                     <a>News</a>
                     <a>About us</a>
                 </div>
-                <div class="flex gap-4">
-                    <a>Search</a>
-                    <i class="uil uil-search"></i>
+                <div class="flex gap-4 text-white font-light align-middle pl-4">
+                    <a class="text-lg">Search</a>
+                    <i class="uil uil-search text-xl"></i>
                 </div>
             </div>
         </div>
     </nav>
+    <section class="relative bg-black ">
+        <div class="bg-[url('/Assets/Conversation-for-Tomorrow-8-Dotcom-banner.jpg')] bg-cover bg-no-repeat bg-center p-5 relative min-h-96 lg:min-h-screen">
+            <div class="bg-blue-900 h-56 w-5/6 lg:w-3/6 -bottom-28 lg:bottom-8 absolute mx-4 z-10 flex flex-col px-8 py-8 gap-y-6">
+                <h1 class="text-4xl text-white font-bold left-4 right-4 uppercase lg:text-3xl">Conversation for tomorrow</h1>
+                <p class="text-white text-lg">The dual transition to digital and sustainable economy</p>
+            </div>
+        </div>
+    
+
+    </section>
 </body>
 </html>
